@@ -13,11 +13,11 @@ Os relatórios são escritos de forma técnica, objetiva e padronizada, contendo
 
 ## Estrutura do Repositório
 
-├── juice-shop/report.md
+reports.md
 
-├── metasploitable/report.md
+screenshots
 
-└── README.md
+README.md
 
 Cada laboratório possui sua própria pasta contendo:
 
@@ -37,15 +37,12 @@ Este repositório tem o propósito de:
 
 Todo o conteúdo aqui é baseado em ambientes vulneráveis **intencionalmente criados para estudo**, sem qualquer finalidade ofensiva.
 
-## Laboratórios Disponíveis
+## Laboratório Disponível
 
 ### OWASP Juice Shop
 Ambiente voltado para prática de vulnerabilidades comuns em aplicações web.  
-Relatório disponível na pasta `/juice-shop`.
+Relatório disponível em report.....md
 
-### Metasploitable (em breve)
-Máquina vulnerável utilizada amplamente em treinamentos de pentest.  
-O relatório será disponibilizado assim que finalizado.
 
 ## Observações Importantes
 
