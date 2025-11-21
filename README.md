@@ -1,8 +1,16 @@
-# Relatórios de Vulnerabilidades  
-Repositório destinado ao registro, organização e apresentação de estudos práticos de Segurança da Informação realizados em ambientes controlados.  
-Aqui são documentadas vulnerabilidades identificadas em laboratórios como OWASP Juice Shop, Metasploitable e outros cenários utilizados para fins educacionais.
+# Relatórios de Vulnerabilidades JUICE-SHOP
 
-Os relatórios são escritos de forma técnica, objetiva e padronizada, contendo:  
+Estudante de Segurança da Informação em constante evolução, unindo curiosidade, prática e tecnologia para compreender e documentar vulnerabilidades de forma ética e profissional.
+
+---
+
+### Sobre o repositório
+
+Repositório destinado ao registro, organização e apresentação de estudos práticos de Segurança da Informação realizados em ambientes controlados.  
+Aqui são documentadas vulnerabilidades identificadas no laboratório OWASP Juice Shop.
+
+Os relatórios são escritos de forma técnica, objetiva e padronizada, contendo:
+
 - descrição da vulnerabilidade  
 - cenário analisado  
 - processo de descoberta  
@@ -11,48 +19,39 @@ Os relatórios são escritos de forma técnica, objetiva e padronizada, contendo
 - impacto  
 - recomendações de mitigação  
 
-## Estrutura do Repositório
+---
 
-reports.md
+### Estrutura do Repositório
 
-screenshots
+- `reports.md`  
+- `screenshots/`  
+- `README.md`
 
-README.md
-
-Cada laboratório possui sua própria pasta contendo:
+Cada laboratório possui seu proprio arquivo:
 
 - relatório em Markdown  
-- screenshots organizadas  
-- arquivos adicionais (ex.: scripts de enumeração ou brute force usados no teste)
+- screenshots gerais 
 
-## Objetivo do Repositório
+---
 
-Este repositório tem o propósito de:
+### Objetivo do Repositório
+
+O repositório tem como propósito:
 
 - demonstrar domínio prático de metodologias de análise de vulnerabilidade  
 - documentar descobertas técnicas de forma clara e profissional  
 - servir como portfólio na área de Segurança da Informação  
-- estudar e reforçar boas práticas de avaliação e mitigação de riscos  
+- reforçar boas práticas de avaliação e mitigação de riscos  
 - evoluir continuamente com novos laboratórios e cenários
 
 Todo o conteúdo aqui é baseado em ambientes vulneráveis **intencionalmente criados para estudo**, sem qualquer finalidade ofensiva.
 
-## Laboratório Disponível
-
-### OWASP Juice Shop
-Ambiente voltado para prática de vulnerabilidades comuns em aplicações web.  
-Relatório disponível em report.....md
-
-
-## Observações Importantes
-
-- Todas as análises foram realizadas em ambientes controlados.  
-- Nenhuma técnica, ferramenta ou conhecimento aqui documentado deve ser utilizado fora de ambientes explicitamente autorizados.  
-- Relatórios seguem estrutura padrão utilizada em avaliações de segurança profissionais.
-
 ---
 
-## Autor
-**Vinícius Santos**  
-Estudante de Segurança da Informação  
-LinkedIn: linkedin.com/in/vinícius-santos9090  
+### Observações Importantes
+
+- Todas as análises foram realizadas em ambientes controlados.  
+- Nenhuma técnica, ferramenta ou conhecimento aqui descrito deve ser utilizado fora de ambientes explicitamente autorizados.  
+- Os relatórios seguem uma estrutura padrão utilizada em avaliações profissionais de segurança.
+
+  
