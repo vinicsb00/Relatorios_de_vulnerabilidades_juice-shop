@@ -46,7 +46,7 @@ A seguir estão as etapas da exploração, com os locais destinados para inserir
 
 O usuário autenticado como `aleatorio@gmail.com` envia um comentário.
 
-![Comentando no produto](img/comentariorev.png)
+![Comentando no produto](screenshots/comentariorev.png)
 
 ---
 
@@ -54,7 +54,7 @@ O usuário autenticado como `aleatorio@gmail.com` envia um comentário.
 
 A interface confirma que o usuário logado é `aleatorio@gmail.com`.
 
-![Prova de Usuario](img/useraleatorio.png)
+![Prova de Usuario](screenshots/useraleatorio.png)
 
 ---
 
@@ -62,7 +62,7 @@ A interface confirma que o usuário logado é `aleatorio@gmail.com`.
 
 O comentário enviado gera uma requisição **PUT**, interceptada no Burp Suite.
 
-![Interceptando a requisição](img/put.png)
+![Interceptando a requisição](screenshots/put.png)
 
 ---
 
@@ -77,7 +77,7 @@ A requisição PUT contém:
 }
 ````
 
-![Encontro dos parâmetros](img/messageeauthor.png)
+![Encontro dos parâmetros](screenshots/messageeauthor.png)
 
 ---
 
@@ -88,7 +88,7 @@ Os parâmetros são alterados manualmente:
 - `author` é substituído pelo e-mail de outro usuário (incluindo admin)
 - `message` é alterado por outro texto
 
-![Troca de mensagem e autor](img/trocaidor.png)
+![Troca de mensagem e autor](screenshots/trocaidor.png)
 
 ---
 
@@ -99,13 +99,13 @@ A API retorna: "success"
 
 confirmando a alteração indevida.
 
-![sucesso](img/suidor.png)
+![sucesso](screenshots/suidor.png)
 
 ---
 
 Resultado.
 
-![Resultado Final](img/finalidor.png)
+![Resultado Final](screenshots/finalidor.png)
 
 ## 5. Impacto
 
