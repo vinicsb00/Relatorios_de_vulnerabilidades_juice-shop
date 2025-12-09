@@ -61,7 +61,7 @@ Isso torna o brute force viável sem qualquer restrição.
 ### 3.1 Enumeração automática
 Um script percorreu os IDs dos produtos para coletar e-mails expostos.
 
-Adicionar print:  
+print:  
 <img src="./screenshots/enumEMAILS.png" width="600">
 
 ---
@@ -69,7 +69,7 @@ Adicionar print:
 ### 3.2 Ataque de força bruta
 Com o e-mail administrativo identificado, o script testou uma lista de senhas até obter sucesso.
 
-Adicionar print:  
+print:  
 <img src="./screenshots/Programa Bruteforce.png" width="600">
 
 ---
@@ -77,7 +77,7 @@ Adicionar print:
 ### 3.3 Acesso administrativo
 Após o brute force, o login foi bem-sucedido e o painel administrativo ficou acessível.
 
-Adicionar print:  
+print:  
 <img src="./screenshots/Resultado.png" width="600">
 
 ## 4. Impacto
